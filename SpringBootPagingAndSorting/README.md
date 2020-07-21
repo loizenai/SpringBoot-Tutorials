@@ -1,6 +1,8 @@
 Articles: Ajax Pagination Filtering and Sorting with Bootstrap Table & SpringBoot RestAPI Example – JQuery Ajax Tutorial
 https://loizenai.com/jquery-ajax-pagination-filtering-sorting-tutorial-bootstrap-table-springboot-restapis-examples/
 
+-------------------------
+
 When we have a large dataset and we want to present it to the user in smaller chunks, pagination and sorting is often helpful solution. So in the tutorial, I introduce how to use JQuery Ajax and Bootstrap to build a table solution for pagination, filtering and sorting the fetching data with SpringBoot RestAPIs examples.
 
 Related posts:
