@@ -1,6 +1,6 @@
 Build SpringBoot CRUD Application – FullStack: Frontend (Bootstrap and Ajax) to Backend (SpringBoot and MySQL/PostgreSQL database)
 -------------------------
-https://loizenai.com/build-springboot-crud-application-fullstack-frontend-bootstrap-and-ajax-to-backend-springboot-and-mysql-postgresql-database/#sourcecode
+https://loizenai.com/build-springboot-crud-application-fullstack-frontend-bootstrap-and-ajax-to-backend-springboot-and-mysql-postgresql-database/
 
 In the tutorial, I will introduce how to create a Fullstack SpringBoot RestAPIs CRUD Application to MySQL/PostgreSQL database using Spring WEB MVC framework and Spring JPA for building Backend and using Bootstrap, JQuery Ajax for building frontend client
 
