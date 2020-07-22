@@ -1,4 +1,5 @@
 Tutorial: Angular CRUD Application with SpringBoot and MySQL/PostgreSQL RestAPIs – Fullstack Angular 10-9-8 HttpClient Post/Get/Put/Delete
+***
 https://loizenai.com/angular-crud-application-with-springboot-and-mysql-postgresql-restapis-fullstack-angular-httpclient-post-get-put-delete/
 
 Related posts:
