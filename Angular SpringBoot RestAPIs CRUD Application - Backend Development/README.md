@@ -3,6 +3,7 @@ Tutorial: Angular CRUD Application with SpringBoot and MySQL/PostgreSQL RestAPIs
 https://loizenai.com/angular-crud-application-with-springboot-and-mysql-postgresql-restapis-fullstack-angular-httpclient-post-get-put-delete/
 
 Related posts:
+***
 1. Spring Boot Security JWT Authentication Example – MySQL/PostgreSQL + Spring JPA + RestAPIs
 https://loizenai.com/spring-boot-security-jwt-authentication-example-mysql-postgresql-spring-jpa-restapis/
 
