@@ -18,3 +18,6 @@ https://loizenai.com/springboot-restapi-upload-download-multiple-csv-files-to-my
 
 5. SpringBoot Upload Download Multiple Files with Rest API + Ajax Tutorial
 Link: https://loizenai.com/springboot-upload-download-multiple-files-with-rest-api-ajax/
+
+6. Spring Boot Tutorial Pagination, Filtering and Sorting RestAPIs Example | Spring JPA – Pageable & Sort object requests
+https://loizenai.com/spring-boot-tutorial-pagination-filtering-and-sorting-example
