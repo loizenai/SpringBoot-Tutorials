@@ -15,3 +15,6 @@ https://loizenai.com/build-springboot-crud-application-fullstack-frontend-bootst
 
 4. SpringBoot RestAPIs Upload Download Multiple CSV files to MySQL/PostgreSQL with Ajax + RestClient
 https://loizenai.com/springboot-restapi-upload-download-multiple-csv-files-to-mysql-postgresql-database-with-ajax-restclient
+
+5. SpringBoot Upload Download Multiple Files with Rest API + Ajax Tutorial
+Link: https://loizenai.com/springboot-upload-download-multiple-files-with-rest-api-ajax/
