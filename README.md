@@ -12,3 +12,6 @@ https://loizenai.com/build-angular-table-pagination-filtering-sorting-with-sprin
 
 3. Build SpringBoot CRUD Application – FullStack: Frontend (Bootstrap and Ajax) to Backend (SpringBoot and MySQL/PostgreSQL database)
 https://loizenai.com/build-springboot-crud-application-fullstack-frontend-bootstrap-and-ajax-to-backend-springboot-and-mysql-postgresql-database/#sourcecode
+
+4. SpringBoot RestAPIs Upload Download Multiple CSV files to MySQL/PostgreSQL with Ajax + RestClient
+https://loizenai.com/springboot-restapi-upload-download-multiple-csv-files-to-mysql-postgresql-database-with-ajax-restclient
