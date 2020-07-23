@@ -14,3 +14,9 @@ https://loizenai.com/angular-crud-application-with-springboot-and-mysql-postgres
 
 3. Spring Boot Security JWT Authentication Example – MySQL/PostgreSQL + Spring JPA + RestAPIs
 https://loizenai.com/spring-boot-security-jwt-authentication-example-mysql-postgresql-spring-jpa-restapis/
+
+4. Spring Boot Tutorial Pagination, Filtering and Sorting RestAPIs Example | Spring JPA – Pageable & Sort object requests
+https://loizenai.com/spring-boot-tutorial-pagination-filtering-and-sorting-example
+
+5. SpringBoot Upload Download Multiple Files with Rest API + Ajax Tutorial
+https://loizenai.com/springboot-upload-download-multiple-files-with-rest-api-ajax/#sourcecode
