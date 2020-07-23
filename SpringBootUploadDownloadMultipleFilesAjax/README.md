@@ -1,8 +1,10 @@
 SpringBoot Upload Download Multiple Files with Rest API + Ajax Tutorial
 ***
-https://loizenai.com/springboot-upload-download-multiple-files-with-rest-api-ajax/
+Link: https://loizenai.com/springboot-upload-download-multiple-files-with-rest-api-ajax/
 
 Related posts:
+***
+
 1. Spring Boot Security JWT Authentication Example – MySQL/PostgreSQL + Spring JPA + RestAPIs
 https://loizenai.com/spring-boot-security-jwt-authentication-example-mysql-postgresql-spring-jpa-restapis/
 
