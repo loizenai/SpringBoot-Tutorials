@@ -24,3 +24,6 @@ Link: https://loizenai.com/springboot-upload-download-multiple-files-with-rest-a
 
 6. Spring Boot Tutorial Pagination, Filtering and Sorting RestAPIs Example | Spring JPA – Pageable & Sort object requests
 https://loizenai.com/spring-boot-tutorial-pagination-filtering-and-sorting-example
+
+7. Spring Boot Security JWT Authentication Example – MySQL/PostgreSQL + Spring JPA + RestAPIs
+https://loizenai.com/spring-boot-security-jwt-authentication-example-mysql-postgresql-spring-jpa-restapis/
