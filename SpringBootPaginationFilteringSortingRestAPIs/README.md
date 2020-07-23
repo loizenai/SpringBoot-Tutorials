@@ -19,4 +19,4 @@ https://loizenai.com/spring-boot-security-jwt-authentication-example-mysql-postg
 https://loizenai.com/spring-boot-tutorial-pagination-filtering-and-sorting-example
 
 5. SpringBoot Upload Download Multiple Files with Rest API + Ajax Tutorial
-https://loizenai.com/springboot-upload-download-multiple-files-with-rest-api-ajax/#sourcecode
+https://loizenai.com/springboot-upload-download-multiple-files-with-rest-api-ajax/
