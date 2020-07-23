@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Upload Download CSV File Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="/js/ajaxupdownloadcsv.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
+				<h3>Upload Single CSV File</h3>
+				<form id="uploadSingleFileForm">
+					<div class="form-group">
+						<label class="control-label" for="csvfile">Choose a Csv File:</label>
+						<input type="file" class="form-control" 
+								placeholder="Choose a upload file" id="csvfile" name="csvfile" required></input>
+					</div>
+					<button type="submit" class="btn btn-danger" id="btnUploadSingleFileSubmit">Submit</button>
+				</form>
+				<div id="response" style="display:none">
+				</div>
+			</div>
+		</div>
+		<hr>		
+		<div class="row">
+			<div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
+				<h3>Upload Multiple Files</h3>
+				<form id="uploadMultipleFilesForm">
+					<div class="form-group">
+						<label class="control-label" for="csvfiles">Choose CSV Files:</label>
+						<input type="file" class="form-control" 
+								placeholder="Choose upload files" id="csvfiles" name="csvfiles" multiple required></input>
+					</div>
+					<button type="submit" class="btn btn-danger" id="btnUploadMultipleFilesSubmit">Submit</button>
+				</form>
+				<div id="responses" style="display:none">
+				</div>
+			</div>
+			
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-sm-7">
+				<a href="/api/download/csv/" class="btn btn-primary" role="button" id="downloadcsvfile">Download CSV File</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
