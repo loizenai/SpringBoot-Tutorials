@@ -30,3 +30,6 @@ https://loizenai.com/spring-boot-security-jwt-authentication-example-mysql-postg
 
 8. Angular 10 Spring Boot JWT Authentication Example – Angular 6, 8, 9, 10 + Spring Security + MySQL/PostgreSQL 
 Link: https://loizenai.com/angular-spring-boot-jwt-authentication-example-angular-6-8-9-spring-security-mysql-postgresql
+
+9. SpringBoot Upload Download Multiple Files Examples with Thymeleaf
+https://loizenai.com/springboot-upload-multiple-files-examples-with-thymeleaf/
