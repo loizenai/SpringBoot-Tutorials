@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Upload Files</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+ 
+<body>
+  <div class="container">
+    <div class="row h-100 justify-content-center align-items-center">
+      <div class="col-sm-5"
+      		style="background-color:#e6ecff; margin:5px; 
+      		padding:7px; border: solid 1px black; border-radius: 3px">
+        <h3>Upload File to SpringBoot Backend</h3>
+        <form method="POST" enctype="multipart/form-data" id="uploadForm">
+			<div class="form-group">
+				<label for="uploadfile2">File 1:</label> 
+				<input type="file" class="form-control" placeholder="Upload File" id="uploadfile1" name="uploadfile">
+			</div>
+			<div class="form-group">
+				<label for="uploadfile2">File 2:</label> 
+				<input type="file" class="form-control" placeholder="Upload File" id="uploadfile2" name="uploadfile">			
+			</div>
+			<div class="form-group">
+				<label for="uploadfile3">File 3:</label> 
+				<input type="file" class="form-control" placeholder="Upload File" id="uploadfile3" name="uploadfile">			
+			</div>			
+			<button type="submit" class="btn btn-primary">Submit</button>
+			<a href="/api/download/files" class="btn btn-primary" role="button">Files</a>
+		</form>
+		</div>        
+      </div>
+		<div th:if="${messages!=null and !messages.isEmpty()}"
+			class="row h-100 justify-content-center align-items-center">
+			<div class="row col-sm-5"
+				style="background-color: yellow; margin: 5px; padding: 7px; border: solid 1px black; border-radius: 3px">
+				<ul th:each="message : ${messages}">
+					<li th:text="${message}"></li>
+				</ul>
+			</div>
+		</div>
+    </div>    
+</body>
+</html>
