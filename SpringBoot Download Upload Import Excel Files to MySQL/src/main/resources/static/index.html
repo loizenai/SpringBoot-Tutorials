@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Upload Download Excel File Examples to PostgreSQL/MySQL</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/excelfiles.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row h-100 justify-content-center align-items-center">
+			<div class="col-sm-6">
+				<h3>Upload Excel Files to PostgreSQL</h3>
+				<form id="fileUploadForm">
+					<div class="form-group">
+						<label class="control-label" for="uploadfile">Choose Excel Files:</label>
+						<input type="file" class="form-control" placeholder=".xlxs file" name="uploadfiles"></input>
+						<input type="file" class="form-control" placeholder=".xlxs file" name="uploadfiles"></input>
+					</div>
+					<button type="submit" class="btn btn-danger" id="btnSubmit">Upload</button>
+				</form>
+				<div id="uploadedfile" style="display:none">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
