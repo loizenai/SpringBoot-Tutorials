@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Upload Download Excel Files Example - copyright by https://loizenai.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="/js/excelfiles.js"></script>
+</head>
+<body>
+	<div class="container"">
+		<p style="margin:5xp;padding:10px;">@ Copyright by <a href="https://loizenai.com">https://loizenai.com</a> - youtube: <a href="https://www.youtube.com/channel/UChkCKglndLes1hkKBDmwPWA">loizenai</a></p>
+		<div class="row">
+			<div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
+				<h3>Upload Single Excel File</h3>
+				<form id="uploadSingleFileForm">
+					<div class="form-group">
+						<label class="control-label" for="csvfile">Choose a Excel File:</label>
+						<input type="file" class="form-control" 
+								placeholder="Choose a upload file" id="excelfile" name="excelfile" required></input>
+					</div>
+					<button type="submit" class="btn btn-danger" id="btnUploadSingleFileSubmit">Submit</button>
+				</form>
+				<div id="response" style="display:none">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
+				<h3>Upload Multiple Excel Files</h3>
+				<form id="uploadMultipleFilesForm">
+					<div class="form-group">
+						<label class="control-label" for="excelfiles">Choose Excel Files:</label>
+						<input type="file" class="form-control" 
+								placeholder="Choose upload files" id="excelfiles" name="excelfiles" multiple required></input>
+					</div>
+					<button type="submit" class="btn btn-danger" id="btnUploadMultipleFilesSubmit">Submit</button>
+				</form>
+				<div id="responses" style="display:none">
+				</div>
+			</div>
+			
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-sm-7">
+				<a href="/api/download/excel/" class="btn btn-primary" role="button" id="downloadexcelfile">Download Excel File</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
